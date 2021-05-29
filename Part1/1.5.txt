@@ -1,0 +1,6 @@
+javicodx@javicodx-UX430UAR:~/Desktop$ docker images
+REPOSITORY                          TAG       IMAGE ID       CREATED        SIZE
+ubuntu                              latest    7e0aa2d69a15   5 weeks ago    72.7MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   2 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   2 months ago   15.7MB
+

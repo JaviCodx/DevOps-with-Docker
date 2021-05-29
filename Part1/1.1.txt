@@ -1,0 +1,6 @@
+javicodx@javicodx-UX430UAR:~/Desktop$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                      PORTS     NAMES
+d30324399c36   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) 13 seconds ago             ecstatic_khorana
+26c7a9cff0a4   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) 7 seconds ago              determined_black
+0be2b278e9cf   nginx     "/docker-entrypoint.…"   3 minutes ago   Up 3 minutes                80/tcp    dreamy_bell
+

@@ -1,0 +1,16 @@
+javicodx@javicodx-UX430UAR:~/Desktop$ docker container ls -a
+CONTAINER ID   IMAGE     COMMAND                   CREATED         STATUS              PORTS     NAMES
+a7e5e771cc49   ubuntu    "sh -c 'echo \"Input …"   3 minutes ago   Up About a minute             quizzical_clarke
+javicodx@javicodx-UX430UAR:~/Desktop$ docker exec -it quizzical_clarke sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+Input website:
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.helsinki.fi/">here</a>.</p>
+</body></html>
+javicodx@javicodx-UX430UAR:~/Desktop$ 
+

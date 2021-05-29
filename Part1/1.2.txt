@@ -1,0 +1,9 @@
+javicodx@javicodx-UX430UAR:~/Desktop$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+javicodx@javicodx-UX430UAR:~/Desktop$ docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+javicodx@javicodx-UX430UAR:~/Desktop$ 
+
+
+
+
